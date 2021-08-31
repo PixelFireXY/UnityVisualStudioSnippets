@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Yeld WaitWhile</Title>
+			<Author>Matteo Vittori</Author>
+			<Description>Snippet for yield return new WaitWhile.</Description>
+			<Shortcut>yrnww</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[yield return new WaitWhile(() => $Var$);$end$]]>
+            </Code>
+			<Declarations>
+			<Literal>
+			  <ID>Var</ID>
+			  <ToolTip>Choose the condition until the supplied delegate evaluates to false.</ToolTip>
+			  <Default>true</Default>
+			</Literal>
+		  </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

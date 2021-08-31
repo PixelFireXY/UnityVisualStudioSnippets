@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Coroutine function</Title>
+			<Author>Matteo Vittori</Author>
+			<Description>Snippet for a coroutine function.</Description>
+			<Shortcut>ienumerator</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[private IEnumerator $Var$()
+				{
+					$selected$ $end$
+					
+					yield return null;
+				}]]>
+            </Code>
+			<Declarations>
+			<Literal>
+			  <ID>Var</ID>
+			  <ToolTip>The name of the coroutine function.</ToolTip>
+			  <Default>MyCoroutine</Default>
+			</Literal>
+		  </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
