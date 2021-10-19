@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>publicr</Title>
+			<Author>Matteo Vittori</Author>
+			<Description>Snippet for a blanc public method with return type.</Description>
+			<Shortcut>publicr</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[public $Ret$ $Var$()
+				{
+					$selected$
+					
+					return null$end$;
+				}]]>
+            </Code>
+			<Declarations>
+			<Literal>
+			  <ID>Var</ID>
+			  <ToolTip>The name of the method.</ToolTip>
+			  <Default>MethodName</Default>
+			</Literal>
+			<Literal>
+			  <ID>Ret</ID>
+			  <ToolTip>The return type of the method.</ToolTip>
+			  <Default>object</Default>
+			</Literal>
+		  </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
