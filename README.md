@@ -6,7 +6,7 @@ Snippets to make programmer's life easier, designed for Unity
 
 | Snippet name  | Snippet shortcut | Snippet code | Description |
 | ------------- | ------------- | ------------- | ------------- |
-| Brackeys wrap  | brackeys  | { code }  | Code snipped to wrap code between brackeys. |
+| Brackeys wrap  | brackets  | { code }  | Code snipped to wrap code between brackeys. |
 | Debug Log  | dl  | Debug.Log($"string");  | String to print at console. |
 | Debug Log Brackeys  | dlb  | Debug.Log($"{value}");  | Value from a variable or something else to print at console. |
 | Debug Log Warning  | dlw  | Debug.LogWarning($"string");  | String to print warning at console |
